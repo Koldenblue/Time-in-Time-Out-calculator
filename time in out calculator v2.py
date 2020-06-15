@@ -1,3 +1,8 @@
+import re
+from colorama import init, Fore, Back, Style
+from termcolor import colored
+from Time_class import Time
+init()
 
 def get_time_object(time):
     pm = False
@@ -20,6 +25,8 @@ def get_time_object(time):
         time_list[t] = int(time_list[t])
 
     return (Time(time_list[0], time_list[1], pm))
+
+
 
 
 # Loop to get times in, out, and lunch.

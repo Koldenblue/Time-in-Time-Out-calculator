@@ -32,7 +32,6 @@ class Time:
     def __str__(self):
         return str(myTime.hours) + " hours " + str(myTime.minutes) + " minutes"
 
-    def
 
 myTime = Time(10, 20)
 myTime.to_minutes()
